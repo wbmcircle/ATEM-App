@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AtemApp</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="hangup">HangUP</string>
+    <string name="minimize">Minimize</string>
+    <string name="answer">Answer</string>
+</resources>

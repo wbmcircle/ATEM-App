@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true">
+
+    <ImageView
+        android:id="@+id/circle_data_mic"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle_red"
+        android:contentDescription="@string/red" />
+
+    <ImageView
+        android:id="@+id/circle_selfie_lens"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/circle_data_mic"
+        android:background="@drawable/circle_yellow"
+        android:contentDescription="@string/yellow" />
+
+    <ImageView
+        android:id="@+id/circle_tele_comms"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/circle_selfie_lens"
+        android:background="@drawable/circle_green"
+        android:contentDescription="@string/green" />
+
+    <ImageView
+        android:id="@+id/circle_rear_lens"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/circle_tele_comms"
+        android:background="@drawable/circle_blue"
+        android:contentDescription="@string/blue" />
+
+</RelativeLayout>
