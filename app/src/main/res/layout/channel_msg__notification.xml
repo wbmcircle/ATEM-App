@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/channel_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_avatar_default" />
+
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_toEndOf="@id/channel_avatar"
+        android:text="Sender Name"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sender_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/channel_name"
+        android:layout_toEndOf="@id/channel_avatar"
+        android:layout_marginEnd="8dp"
+        android:text="Message"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/sender_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/channel_name"
+        android:layout_toEndOf="@id/sender_name"
+        android:layout_marginEnd="8dp"
+        android:text="Message"
+        android:layout_marginTop="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/message_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/channel_name"
+        android:text="datetime"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+</RelativeLayout>
